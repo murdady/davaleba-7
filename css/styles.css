@@ -1,0 +1,40 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    background-color: #262626;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 46px 320px 45px 320px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: inherit;
+    max-width: inherit;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    color: white;
+    gap: 68px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Work Sans;
+}
+
+.home {
+    color: #DCB47A;
+}
+
+.bag {
+    color: white;
+    font-size: 32px;
+}
