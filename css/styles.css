@@ -87,6 +87,7 @@ h1 {
     flex-direction: column;
     margin-top: 140px;
     margin-left: 320px;
+    margin-bottom: 167px;
 }
 
 h2 {
@@ -101,7 +102,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
 
 figure {
@@ -139,4 +140,63 @@ figcaption {
 
 .dollar {
     color: #E08C11;
+}
+
+/* FOOTER */
+footer {
+    background-color: #262626;
+    display: flex;
+    width: 1920px;
+    padding: 60px 629px 60px 630px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+}
+
+.footerdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    text-align: center;
+    align-items: center;
+}
+
+h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+span {
+    color: #DCB47A;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.placeholder {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button {
+    width: 200px;
+    height: 64px;
+    border-radius: 60px;
+    background: #DCB47A;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button:hover {
+    box-shadow: 0 0 15px rgb(255, 255, 255); 
 }
